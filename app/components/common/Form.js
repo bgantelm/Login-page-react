@@ -24,13 +24,13 @@ class Form extends Component {
             type='text'
             id='username'
             value={this.props.data.username}
-            placeholder='frank.underwood'
+            placeholder='bruno.gantelmi'
             onChange={this._changeUsername}
             autoCorrect='off'
             autoCapitalize='off'
             spellCheck='false' />
           <label className='form__field-label' htmlFor='username'>
-            Username
+            Login
           </label>
         </div>
         <div className='form__field-wrapper'>
@@ -42,7 +42,7 @@ class Form extends Component {
             placeholder='••••••••••'
             onChange={this._changePassword} />
           <label className='form__field-label' htmlFor='password'>
-            Password
+            Mot de passe
           </label>
         </div>
         <div className='form__submit-btn-wrapper'>
